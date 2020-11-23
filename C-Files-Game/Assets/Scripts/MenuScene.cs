@@ -11,5 +11,13 @@ public class MenuScene : MonoBehaviour
     {
         Application.LoadLevel(Menu);
     }
-  
+
+    private void Update()
+    {
+        
+        
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
 }

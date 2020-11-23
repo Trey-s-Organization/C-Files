@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class triggerScene : MonoBehaviour
+public class changeScene : MonoBehaviour
 {
-    private void OnTrigger(Collider other)
+    // Start is called before the first frame update
+    private void OnTriggerEnter(Collider other)
     {
         SceneManager.LoadScene("End");
     }
