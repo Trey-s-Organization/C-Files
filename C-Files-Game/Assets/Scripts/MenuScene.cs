@@ -9,7 +9,8 @@ public class MenuScene : MonoBehaviour
 {
     public void changemenuscene(string Menu)
     {
-        Application.LoadLevel(Menu);
+        //Application.LoadLevel(Menu);
+        SceneManager.LoadScene(Menu);
     }
 
     private void Update()
