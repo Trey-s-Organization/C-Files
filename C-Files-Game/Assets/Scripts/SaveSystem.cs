@@ -4,7 +4,7 @@ using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
-/* public class SaveSystem : MonoBehaviour
+/* public static class SaveSystem : MonoBehaviour
 {
 
     // Code by Julius Scott
